@@ -11,6 +11,7 @@ namespace ReactCalc
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+<<<<<<< HEAD
 
             int x = 0;
             int y = 0;
@@ -55,3 +56,9 @@ namespace ReactCalc
         }
     }
 }
+=======
+            Console.ReadKey();
+        }
+    }
+}
+>>>>>>> b0a356bdc3bb2d626f632510f5d73d79ad7337f8

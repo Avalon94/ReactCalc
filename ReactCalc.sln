@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactCalc", "ReactCalc.csproj", "{F61129BD-1907-4381-B4B2-065878598CC9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCalc", "TestCalc\TestCalc.csproj", "{13A5A37F-9463-420B-81E4-69CD0FE6114F}"
@@ -10,6 +11,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialLibrary", "FactorialLibrary\FactorialLibrary.csproj", "{9E33565A-57FD-469D-A71B-7D9626CC3CC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcBase", "CalcBase\CalcBase.csproj", "{4981E2F0-40F2-4553-BE1E-8AE38C9D34BA}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactCalc", "ReactCalc\ReactCalc.csproj", "{F61129BD-1907-4381-B4B2-065878598CC9}"
+>>>>>>> b0a356bdc3bb2d626f632510f5d73d79ad7337f8
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,7 @@ Global
 		{F61129BD-1907-4381-B4B2-065878598CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61129BD-1907-4381-B4B2-065878598CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61129BD-1907-4381-B4B2-065878598CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{13A5A37F-9463-420B-81E4-69CD0FE6114F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{13A5A37F-9463-420B-81E4-69CD0FE6114F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A5A37F-9463-420B-81E4-69CD0FE6114F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +38,8 @@ Global
 		{4981E2F0-40F2-4553-BE1E-8AE38C9D34BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4981E2F0-40F2-4553-BE1E-8AE38C9D34BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4981E2F0-40F2-4553-BE1E-8AE38C9D34BA}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> b0a356bdc3bb2d626f632510f5d73d79ad7337f8
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
