@@ -11,6 +11,46 @@ namespace ReactCalc
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+
+            int x = 0;
+            int y = 0;
+            var calc = new Calc();
+
+            if(args.Length == 2)
+            {
+                if(!int.TryParse(args[0], out x))
+                {
+                    x = 70;
+                }
+                if (!int.TryParse(args[0], out y))
+                {
+                    y = 90;
+                }
+            }
+            else
+            {
+                #region Ввод данных
+                Console.WriteLine("Введите X: ");
+                var strx = Console.ReadLine();
+                if (!int.TryParse(strx, out x))
+                {
+                    x = 70;
+                }
+
+                Console.WriteLine("Введите Y: ");
+                var stry = Console.ReadLine();
+                if (!int.TryParse(stry, out y))
+                {
+                    y = 40;
+                }
+
+                #endregion
+
+            }
+            var result = calc.Sum(x,y);
+            
+            Console.WriteLine("Сумма: " + result.ToString());
+
             Console.ReadKey();
         }
     }
